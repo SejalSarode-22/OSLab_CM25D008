@@ -1,0 +1,82 @@
+CM25D008
+
+PRACTICAL NO.1 – OPERATING SYSTEM COMMANDS
+
+
+1. Display user manual of any command
+   man ls
+
+2. Change current working directory
+   cd foldername
+
+3. List contents of current directory
+   ls
+
+4. Read / modify / concatenate text files
+   cat file.txt
+   nano file.txt
+   cat file1.txt file2.txt
+
+5. Create a new directory under any directory
+   mkdir newfolder
+
+6. Display current working directory
+   pwd
+
+7. Write arguments to standard output
+   echo Hello World
+
+8. Remove a file
+   rm file.txt
+
+9. Delete a directory
+   rmdir foldername
+
+10. Copy file or directory
+    cp file1.txt file2.txt
+    cp -r dir1 dir2
+
+11. Switch to root user
+    su
+
+12. Move files/directories
+    mv oldname newname
+
+13. Search string in a file
+    grep "word" file.txt
+
+14. Print top N lines
+    head -n 5 file.txt
+
+15. Print last N lines
+    tail -n 5 file.txt
+
+16. Remove read permission from owner
+    chmod u-r file.txt
+
+17. Add read to owner & remove write from group
+    chmod u+r g-w file.txt
+
+18. Add write to owner, no permission to others
+    chmod u+w o= file.txt
+
+19. Assign permission to users
+    chmod u=rwx file.txt
+
+20. Assign R/W/X to others
+    chmod o=rwx file.txt
+
+21. Remove all permissions from all users
+    chmod 000 file.txt
+
+22. Remove read permission from user (absolute mode)
+    chmod 600 file.txt
+
+23. Add R/W to owner, no permission to group & others
+    chmod 600 file.txt
+
+24. Add execute to owner, read to group & others
+    chmod 544 file.txt
+
+25. Add execute permission to all users
+    chmod a+x file.txt
